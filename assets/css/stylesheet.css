@@ -1,0 +1,513 @@
+header {
+    background-color: pink;
+    border: 2px solid;
+    border-radius: inherit;
+    border-bottom-style: groove;
+    border-bottom-width: thin;
+    font-size: xx-large;
+    text-align: center;
+    font-family: handvetica;
+    word-spacing: 12px;
+    font-kerning: initial;
+    text-combine-upright: digits 3;
+);
+}
+
+@font-face {
+    font-family: handvetica;
+    src: url("../fonts/Handvetica%20Neue%20Regular%20Trial.ttf");
+}
+
+@font-face {
+    font-family: rankensten;
+    src: url("../fonts/Mr.Jackson%20Rankenstein.ttf");
+}
+
+nav {
+    font-size: large;
+    float: left;
+}
+
+.fondile h1 {
+    font-kerning: inital;
+    font-family: fantasy;
+    color: #1E90FF;
+    text-align: center;
+    font-size: xx-large;
+    font-feature-settings: unset;
+}
+
+* h1 {
+    color: white;
+    page-break-before: always;
+}
+
+* p {
+    page-break-inside: avoid;
+    border-bottom: 2px double;
+    border-bottom-color: whitesmoke;
+    hanging-punctuation: force-end;
+    hyphens: auto;
+    color: white;
+    letter-spacing: normal;
+    line-break: strict;
+    line-height: normal;
+    overflow-wrap: break-word;
+    tab-size: 2px;
+    text-align-last: end;
+    text-indent: each-line;
+    text-align: justify;
+    text-justify: auto;
+    text-transform: capitalize;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: break-word;
+    text-decoration-color: aliceblue;
+    text-decoration-line: none;
+    text-decoration-style: double;
+    text-shadow: ThreeDLightShadow;
+    text-underline-position: alphabetic;
+}
+
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/d1/b6/fd/d1b6fdb1cbfc13208e1f06717e04b304.jpg");
+    background-attachment: scroll;
+    background-repeat: inherit;
+    opacity: 0.8;
+    background-origin: content-box;
+    white-space: normal;
+}
+
+.container {
+    background: linear-gradient(
+            to right,
+            #080000 0%,
+            #FF69B4 50%,
+            #FF00FF 50%,
+            #D80000 100%);
+}
+
+.creepy {
+    float: right;
+    color: whitesmoke;
+    border-right-width: medium;
+    border-color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#list {
+    float: right;
+    color: white;
+    font-weight: bold;
+    margin-right: 500px;
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: url("http://www.ajaxload.info/cache/FF/FF/FF/00/00/00/13-0.gif");
+    image-rendering: -webkit-optimize-contrast;
+    object-fit: fill;
+}
+
+.article {
+    float: right;
+    border: 2px solid;
+    border-color: black;
+    padding: 10px 3px 5px 3px;
+    position: relative;
+    height: px;
+    width: 200px;
+    margin: 50px;
+    -webkit-transform: rotateY(180deg); /* Chrome, Safari, Opera */
+    color: #ff6206;
+    backface-visibility: visible;
+    -webkit-perspective: 150px; /* Chrome, Safari, Opera */
+    -webkit-perspective-origin: 10% 10%; /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 50% 40%; /* Chrome, Safari, Opera */
+    -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
+    box-sizing: border-box;
+}
+
+.article p {
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.map {
+    float: left;
+    padding-left: 20%;
+}
+
+.h2 {
+    color: deepskyblue;
+    height: 120px;
+    width: 60px;
+    -webkit-writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    -webkit-animation: infinite;
+    -o-animation: infinite;
+    animation: infinite;
+    -webkit-animation-name: mymove;
+    animation-name: mymove;
+    position: absolute;
+    margin-left: 100px;
+    webkit-animation-delay: 5s;
+    -webkit-animation-direction: reverse;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-fill-mode: backwards; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
+}
+
+.map img {
+    float: right;
+    border-top: double;
+    border-width: 8px;
+    border-color: yellow;
+    margin-right: 30%;
+    box-shadow: 10px 10px 5px #999;
+    max-height: none;
+    max-width: none;
+    min-height: none;
+    min-width: none;
+    filter: contrast(1) brightness(1);
+    object-position: absolute;
+    mask-type: inherit;
+}
+
+.map p {
+    font-size: large;
+    color: white;
+    border-left: groove;
+    border-left-color: #080000;
+    border-left-width: medium;
+    border-radius: 5px;
+    border-right: thick;
+    border-right-color: #080000;
+    border-right-style: double;
+    border-top-color: deepskyblue;
+    border-top-style: outset;
+    border-top-width: medium;
+    box-decoration-break: slice;
+    font-language-override: normal;
+}
+
+#table {
+    border-image: url("../pics/borders.png");
+    border-image-repeat: stretch;
+    border-image-slice: 30;
+    display: table;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    vertical-align: right;
+    margin-left: 500px;
+    border-collapse: separate;
+    border-spacing: inherit;
+    caption-side: bottom;
+    empty-cells: hide;
+    table-layout: auto;
+    cursor: all-scroll;
+}
+
+#kitsud {
+    border-image-source: url("../pics/rekt.jpg");
+    /*border-image-outset: 10px;
+    /*border-image-width: 34px;*/
+    border-image-slice: 80;
+    color: white;
+    border-style: solid;
+    border-left-style: dashed;
+    border-right-style: dotted;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 700px;
+    padding-left: 10px;
+    clear: both;
+    display: inline-block;
+}
+
+#kitsud dl {
+    text-overflow: clip;
+    resize: horizontal;
+}
+
+#form {
+    color: white;
+    position: absolute;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    width: 8%;
+    margin-left: 70px;
+    margin-top: 80px;
+    clear: both;
+}
+
+#whatisCanvas {
+    clear: both;
+    float: right;
+    margin-top: 38px;
+    margin-left: 20px;
+}
+
+.olli {
+    float: right;
+    clear: both;
+    /*position: absolute;*/
+    bottom: 10px;
+    top: 650px;
+    width: 200px;
+    height: 100px;
+    left: 30px;
+    right: 30px;
+    border: 3px solid snow;
+    color: white;
+    margin: 50px 100px 75px 35px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    list-style-type: circle;
+    counter-increment;
+    counter-reset;
+    /*marginid liiguvad kellaosuti suunas*/
+}
+
+.kood {
+    clear: both;
+    text-align: center;
+    margin-right: 120px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 4px;
+    float: left;
+    visibility: visible;
+    color: snow;
+    font: 15px arial, sans-serif;
+    border: 4px groove lavenderblush;
+    width: 400px;
+    transition: width 2s;
+    transition-property: width;
+    transition-duration: 4s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+
+#jalutan {
+    clear: both;
+    z-index: -1;
+    color: white;
+    float: left;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+#pet_name {
+    clear: both;
+    margin-left: 50px;
+}
+
+#first {
+    width: 800px;
+    float: left;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.quote1 {
+    color: white;
+    clear: both;
+    margin-left: 50px;
+    position: relative;
+}
+
+.quote {
+    font-style: italic;
+    font-synthesis: style;
+    font-variant-caps: unicase;
+    font-variant-east-asian: jis04;
+    font-variant-ligatures: normal;
+    font-variant-numeric: oldstyle-nums;
+    font-variant-position: super;
+    font-weight: bolder;
+    color: white;
+    direction: ltr;
+    text-orientation: sideways-left;
+    unicode-bidi: bidi-override;
+    -webkit-writing-mode: lr-tb;
+    -ms-writing-mode: lr-tb;
+    writing-mode: lr-tb;
+    outline: #F8F8F8 double thin;
+    outline-offset: 2px;
+    /*outline-color: white;*/
+    outline-style: groove;
+    outline-width: 3px;
+    text-overflow: clip;
+    margin-right: auto;
+    margin-left: auto;
+    clear: both;
+}
+
+#textarea {
+    clear: both;
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightgray;
+    background-clip: content-box;
+    background-size: 15px;
+    width: 230px;
+    height: 100px;
+    display: flex;
+    z-index: -1;
+    float: right;
+    margin-right: 300px;
+    align-content: flex-end;
+    align-items: baseline;
+    align-self: auto;
+    flex-basis: 30%;
+    flex-direction: column-reverse;
+    flex-flow: nowrap;
+    flex-grow: inherit;
+    flex-shrink: auto;
+    flex-wrap: nowrap;
+    justify-content: center;
+    order: inherit;
+    margin-top: 20px;
+}
+
+h1:before {
+    content: open-quote;
+}
+
+h1:after {
+    content: close-quote;
+}
+
+@-webkit-keyframes mymove {
+    from {
+        right: 160px;
+    }
+    to {
+        right: 200px;
+    }
+}
+
+.dog {
+    position: absolute;
+    -webkit-animation: mymove 3s i nfinite; /* Chrome, Safari, Opera */
+    animation: mymove 3s infinite;
+    margin-right: 200px;
+}
+
+#footer {
+    page-break-after: always;
+    color: white;
+    clear: both;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+.destroy {
+    clear: both;
+    color: white;
+    float: right;
+    margin-right: 200px;
+    margin-bottom: 40px;
+}
+
+.form1 {
+    clear: both;
+    color: white;
+    margin-left: 50px;
+}
+
+.miks {
+    clear: both;
+    color: white;
+    margin-left: 50px;
+}
+
+#action {
+    clear: both;
+    color: white;
+    margin-left: 500px;
+}
+
+.page {
+    clear: both;
+    color: white;
+    margin-left: 500px;
+}
+
+figure {
+    color: white;
+}
+
+figure img {
+    border: 2px double black;
+}
+
+.tark {
+    clear: both;
+    color: white;
+    padding-left: 40px;
+}
+
+#muu {
+    float: right;
+    margin-right: 500px;
+    clear: both;
+    color: white;
+}
+
+#skill {
+    -webkit-columns: 100px 2;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 40px;
+    -webkit-column-rule: 4px outset #FFFAF0;
+    -webkit-column-rule-color: #FFFAF0;
+    -webkit-column-rule-style: double;
+    -webkit-column-rule-width: 13px;
+    -webkit-column-width: 100px;
+    -webkit-column-fill: auto;
+    -webkit-column-span: 2;
+    color: white;
+    clear: both;
+    float: left;
+    margin-left: 60px;
+}
+
+.meter {
+    clear: both;
+}
+
+q {
+    quotes: "�" "�";
+}
+
+#audio_div {
+    margin-right: 50px;
+    clear: both;
+    color: white;
+    float: right;
+}
+
+#video {
+    clear: both;
+    color: white;
+    float: left;
+    margin-left: 400px;
+}

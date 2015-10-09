@@ -200,7 +200,9 @@ a:visited {
     border-right: thick;
     border-right-color: #080000;
     border-right-style: double;
+    border-left-style: double;
     border-top-color: deepskyblue;
+    border-bottom-color: yellow;
     border-top-style: outset;
     border-top-width: medium;
     box-decoration-break: slice;
@@ -345,6 +347,7 @@ a:visited {
 
 .quote1 p {
     color: lightseagreen;
+
 
 }
 

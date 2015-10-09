@@ -26,7 +26,7 @@ header {
 nav {
     font-size: 25px ;
     position: absolute;
-    margin-left: 410px;
+    margin-left: 400px;
 }
 
 .fondile h1 {
@@ -112,7 +112,7 @@ a:visited {
     float: right;
     color: white;
     font-weight: bold;
-    margin-right: 500px;
+    margin-right: 100px;
     list-style-type: disc;
     list-style-position: inside;
     list-style-image: url("http://www.ajaxload.info/cache/FF/FF/FF/00/00/00/13-0.gif");

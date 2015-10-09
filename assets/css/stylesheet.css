@@ -122,8 +122,11 @@ a:visited {
 
 .article {
     float: left;
-    border: 2px solid;
-    border-color: black;
+    border: 5px solid;
+    border-radius: 9px;
+    -moz-border-radius:;
+    border-radius:;
+    border-color: yellow;
     padding: 10px 3px 5px 3px;
     position: relative;
     height: px;
@@ -136,7 +139,7 @@ a:visited {
     -webkit-perspective-origin: 10% 10%; /* Chrome, Safari, Opera */
     -webkit-transform-origin: 50% 40%; /* Chrome, Safari, Opera */
     -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .article p {
@@ -161,13 +164,13 @@ a:visited {
     animation: infinite;
     -webkit-animation-name: mymove;
     animation-name: mymove;
-    position: absolute;
-    margin-left: 100px;
+    position: fixed;
+    margin-right: 1000px;
     webkit-animation-delay: 5s;
     -webkit-animation-direction: reverse;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-duration: 4s;
     -webkit-animation-fill-mode: backwards; /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: 3;
+    -webkit-animation-iteration-count: 30;
     -webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
 }
 
@@ -219,6 +222,7 @@ a:visited {
     empty-cells: hide;
     table-layout: auto;
     cursor: all-scroll;
+    border-width: 30px;
 }
 
 #kitsud {
@@ -248,14 +252,14 @@ a:visited {
 
 #form {
     color: white;
-    position: absolute;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
     width: 8%;
-    margin-left: 70px;
-    margin-top: 80px;
     clear: both;
+    float: right;
+    margin-right: 400px;
+
 }
 
 #uselessbox {
@@ -279,7 +283,7 @@ a:visited {
     height: 110px;
     left: 30px;
     right: 30px;
-    border: 3px solid snow;
+    border: 10px dashed lightblue;
     color: white;
     margin: 50px 100px 75px 35px;
     overflow: scroll;
@@ -298,7 +302,7 @@ a:visited {
     margin-left: 30px;
     margin-bottom: 20px;
     margin-top: 4px;
-    float: left;
+
     visibility: visible;
     color: snow;
     font: 15px arial, sans-serif;
@@ -333,10 +337,15 @@ a:visited {
 }
 
 .quote1 {
-    color: white;
+    color: lightseagreen;
     clear: both;
     margin-left: 50px;
     position: relative;
+}
+
+.quote1 p {
+    color: lightseagreen;
+
 }
 
 .quote {
@@ -352,14 +361,14 @@ a:visited {
     direction: ltr;
     text-orientation: sideways-left;
     unicode-bidi: bidi-override;
-    -webkit-writing-mode: lr-tb;
+    -webkit-writing-mod: lr-tb;
     -ms-writing-mode: lr-tb;
     writing-mode: lr-tb;
-    outline: #F8F8F8 double thin;
+    outline: yellow double thin;
     outline-offset: 2px;
     /*outline-color: white;*/
     outline-style: groove;
-    outline-width: 3px;
+    outline-width: 4px;
     text-overflow: clip;
     margin-right: auto;
     margin-left: auto;
@@ -436,13 +445,15 @@ h1:after {
 .form1 {
     clear: both;
     color: white;
-    margin-left: 50px;
+    float: right;
+    margin-right: 200px;
 }
 
 .miks {
     clear: both;
     color: white;
-    margin-left: 50px;
+    float: right;
+    margin-right: 500px;
 }
 
 #action {
@@ -507,7 +518,7 @@ q {
     margin-right: 50px;
     clear: both;
     color: white;
-    float: right;
+    float: left;
 }
 
 #video {
@@ -515,4 +526,8 @@ q {
     color: white;
     float: left;
     margin-left: 400px;
+}
+
+#okei {
+    text-align: center;
 }

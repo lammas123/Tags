@@ -74,6 +74,7 @@ body {
     background-image: url("https://s-media-cache-ak0.pinimg.com/originals/d1/b6/fd/d1b6fdb1cbfc13208e1f06717e04b304.jpg");
     background-attachment: scroll;
     background-repeat: inherit;
+    background-position: center;
     opacity: 0.8;
     background-origin: content-box;
     white-space: normal;
@@ -419,6 +420,15 @@ h1:after {
     }
     to {
         right: 200px;
+    }
+}
+
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 200px;
     }
 }
 
